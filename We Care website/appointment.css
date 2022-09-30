@@ -1,0 +1,125 @@
+
+.hospital{
+    position: relative;
+    background-color: #ecf0f3;
+    padding: 3rem .5rem 1.25rem .25rem;
+    border-radius: .5rem;
+    box-shadow: 3px 4px 10px rgba(0,0,0,.15);
+    transition: .3s;
+    margin-bottom: 5rem;
+}
+.box{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: var(--z-model);
+    opacity: 0;
+    visibility:hidden;
+    transition: .3s;
+}
+.box_content{
+    position: fixed;
+    background-color: #ecf0f3;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #0188DF;
+    cursor: pointer;
+}
+form{
+    text-align: center;
+
+}
+form .inputbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inputbox input{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--black) ;
+    background-color: #bddffb;
+    border-radius: .5rem;
+    border: none;
+    
+}
+
+form textarea{
+    position: relative;
+    display: flex;
+    height: 10rem;
+    resize: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #bddffb;
+    border-radius: 1rem;
+    border: none;
+    
+}
+.submit_button{
+    height: 3.5rem;
+    width: 15rem;
+    background: #0188DF;
+    border: none;
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.box_title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #354046;
+}
+.active_box{
+    opacity: 1;
+    visibility: visible;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #354046;
+}
+.name{
+    color: #354046;
+}
+.button{
+    height: 3.5rem;
+    width: 10rem;
+    background: #0188DF;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+   
+   
+   
+}
